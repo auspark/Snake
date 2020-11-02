@@ -7,13 +7,15 @@
 //
 
 #import "ViewController.h"
-
+#import "BackgroundView.h"
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    self.score.integerValue=0;
+    [(BackgroundView *)self.view setScoreTextField:self.score];
 }
 
 
@@ -21,6 +23,9 @@
     [super setRepresentedObject:representedObject];
 
     // Update the view, if already loaded.
+}
+- (IBAction)createFood:(id)sender {
+    [(BackgroundView *)self.view newGame];
 }
 
 

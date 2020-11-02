@@ -12,6 +12,10 @@
 		31A2C761254FBC3200D7C0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A2C760254FBC3200D7C0CC /* Assets.xcassets */; };
 		31A2C764254FBC3200D7C0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A2C762254FBC3200D7C0CC /* Main.storyboard */; };
 		31A2C767254FBC3200D7C0CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2C766254FBC3200D7C0CC /* main.m */; };
+		31A2C770254FC4C000D7C0CC /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2C76F254FC4C000D7C0CC /* BackgroundView.m */; };
+		31A2C773254FC51800D7C0CC /* SnakeBoby.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2C772254FC51800D7C0CC /* SnakeBoby.m */; };
+		31A2C776254FC80B00D7C0CC /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2C775254FC80B00D7C0CC /* Food.m */; };
+		31A2C779254FD90C00D7C0CC /* SnakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2C778254FD90C00D7C0CC /* SnakeWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,14 @@
 		31A2C765254FBC3200D7C0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31A2C766254FBC3200D7C0CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31A2C768254FBC3200D7C0CC /* Snake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snake.entitlements; sourceTree = "<group>"; };
+		31A2C76E254FC4C000D7C0CC /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		31A2C76F254FC4C000D7C0CC /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		31A2C771254FC51800D7C0CC /* SnakeBoby.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnakeBoby.h; sourceTree = "<group>"; };
+		31A2C772254FC51800D7C0CC /* SnakeBoby.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnakeBoby.m; sourceTree = "<group>"; };
+		31A2C774254FC80B00D7C0CC /* Food.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		31A2C775254FC80B00D7C0CC /* Food.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		31A2C777254FD90C00D7C0CC /* SnakeWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnakeWindow.h; sourceTree = "<group>"; };
+		31A2C778254FD90C00D7C0CC /* SnakeWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnakeWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +71,16 @@
 			children = (
 				31A2C75A254FBC3000D7C0CC /* AppDelegate.h */,
 				31A2C75B254FBC3000D7C0CC /* AppDelegate.m */,
+				31A2C777254FD90C00D7C0CC /* SnakeWindow.h */,
+				31A2C778254FD90C00D7C0CC /* SnakeWindow.m */,
 				31A2C75D254FBC3000D7C0CC /* ViewController.h */,
 				31A2C75E254FBC3000D7C0CC /* ViewController.m */,
+				31A2C774254FC80B00D7C0CC /* Food.h */,
+				31A2C775254FC80B00D7C0CC /* Food.m */,
+				31A2C771254FC51800D7C0CC /* SnakeBoby.h */,
+				31A2C772254FC51800D7C0CC /* SnakeBoby.m */,
+				31A2C76E254FC4C000D7C0CC /* BackgroundView.h */,
+				31A2C76F254FC4C000D7C0CC /* BackgroundView.m */,
 				31A2C760254FBC3200D7C0CC /* Assets.xcassets */,
 				31A2C762254FBC3200D7C0CC /* Main.storyboard */,
 				31A2C765254FBC3200D7C0CC /* Info.plist */,
@@ -139,9 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A2C779254FD90C00D7C0CC /* SnakeWindow.m in Sources */,
 				31A2C75F254FBC3000D7C0CC /* ViewController.m in Sources */,
 				31A2C767254FBC3200D7C0CC /* main.m in Sources */,
+				31A2C770254FC4C000D7C0CC /* BackgroundView.m in Sources */,
+				31A2C776254FC80B00D7C0CC /* Food.m in Sources */,
 				31A2C75C254FBC3000D7C0CC /* AppDelegate.m in Sources */,
+				31A2C773254FC51800D7C0CC /* SnakeBoby.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

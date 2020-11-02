@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SnakeWindow.h
 //  Snake
 //
 //  Created by Jerry.Yang on 2020/11/2.
@@ -7,10 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "BackgroundView.h"
+NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController : NSViewController
-@property (strong) IBOutlet NSTextField *score;
-
+@interface SnakeWindow : NSWindow
 
 @end
 
+NS_ASSUME_NONNULL_END
